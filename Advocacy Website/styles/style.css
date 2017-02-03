@@ -102,18 +102,18 @@ figure.semitransparent figcaption:before{
         position: relative;
 }
 .first {
-        background-image: url(1.jpg);
+        background-image: url(../images/1.jpg);
 }
 .second {
-        background-image: url(2.jpg);
+        background-image: url(../images/2.jpg);
         height: 80%;
 }
 .three {
-        background-image: url(3.jpg);
+        background-image: url(../images/3.jpg);
         height: 80%;
 }
 .four {
-        background-image: url(4.jpg);
+        background-image: url(../images/4.jpg);
         height: 80%;
 }
 .right-heading {
