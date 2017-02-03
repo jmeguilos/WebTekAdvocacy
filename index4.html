@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+    <Title>WEBTEK</Title>
+	<head>
+        <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+		<style type="text/css">
+			html, body {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+			}
+            a{
+                color: black;
+            }
+            figure.blurfilter{
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+                position: relative;
+                overflow: hidden;
+            }
+
+            figure.blurfilter img{
+                display: block;
+                width: 1000px;
+                height: auto;
+                transition: all 0.3s 0.3s;
+            }
+
+            figure.blurfilter figcaption{
+                position: absolute;
+                display: block;
+                text-align: left;
+              -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+                text-align: center;
+                background: white;
+                padding: 10px;
+                z-index: 100;
+                width: 90%;
+                height: 90%;
+                overflow: hidden;
+                top: 5%;
+                left: 5%;
+              font-family: 'Roboto Condensed', Bold;
+                font-size: 16px;
+                opacity: 0;
+                -webkit-transition: all 0.4s;
+                transition: all .4s;
+
+            }
+
+            figure.blurfilter figcaption h3{
+                font-size: 500%;
+                text-align: left;
+                width: 100%;
+                margin: 0;
+                color: black
+
+            }
+
+            figure.blurfilter figcaption p{
+                text-align: left;
+                margin-top: 10px;
+                line-height: 1.5;
+                color: white
+                font-size: 160%;
+                font-weight: 300;
+            }
+
+            figure.blurfilter figcaption a{
+                text-decoration: none;
+            }
+
+            figure.blurfilter:hover img{
+              -webkit-filter: blur(20px); 
+              filter: blur(20px);
+                -webkit-transform: scale(1.0);
+                transform: scale(1.0);
+                -webkit-transition: all 0.3s;
+                transition: all 0.3s;
+            }
+
+            figure.blurfilter:hover figcaption{
+                opacity: 1;
+                box-shadow: 0 0 5px gray;
+                -webkit-transition: all .4s .4s;
+                transition: all .4s .4s;
+            }
+
+            figure.semitransparent figcaption{
+                background: transparent;
+            }
+
+            figure.semitransparent figcaption:before{
+                content: '';
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                background: white;
+                opacity: .7;
+            }
+
+			.parallax {
+				height: 100%;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				position: relative;
+			}
+			.first {
+				background-image: url(1.jpg);
+			}
+			.second {
+				background-image: url(2.jpg);
+				height: 80%;
+			}
+			.three {
+				background-image: url(3.jpg);
+				height: 80%;
+			}
+			.four {
+				background-image: url(4.jpg);
+				height: 80%;
+			}
+			.right-heading {
+				position: absolute;
+				top: 20%;
+				right: 5%;
+				transform: translate(0%, -50%);
+				color: white;
+				text-align: right;
+			}
+			.right-heading h1, .right-heading h2 {
+				font-weight: 300;
+                font-family: 'Gotham Black', regular;
+			}
+            .right-heading h3 {
+                font-family: 'SFNS Text', italic;
+			}
+			.right-heading h1 {
+                font-family: 'Gotham Black', regular;
+				font-size: 400%;
+				line-height: 30%;
+			}
+            .container h1 {
+				font-family: 'Gotham Black', regular;
+				font-weight: 300;
+				text-align: left;
+				font-size: 275%;
+				padding-top: 10px;
+				padding-bottom: 20px;
+                padding-left: 200px
+			}
+			.sub-caption {
+				background: rgba(255, 255, 255, 0.0);
+				font-family: Helvetica;
+				width: 75%;
+				padding-top: 27px;
+				padding-bottom: 27px;
+				padding-left: 20px;
+				padding-right: 20px;
+				font-size: 160%;
+				font-weight: 300;
+				position: absolute;
+				top: 50%;
+				right: 5%;
+				transform: translate(0%, -50%);
+			}
+			.left {
+				position: absolute;
+				top: 50%;
+				left: 5%;
+				transform: translate(0%, -50%);
+			}
+            .
+
+		</style>
+	</head>
+
+	<body>
+		<div class="parallax first">
+			<div class="right-heading">
+                <h1>Substance Abuse</h1>
+                <h2>and</h2>
+                 <h1>Prevention</h1>
+				 <h2>"A few minutes of pleasure for oneself is never an <br> equivalent exchange for losing years of one's life." </h2>
+			</div>
+		</div>
+
+
+
+		<div class="parallax second">
+			<div class="sub-caption">
+                <figure class="blurfilter semitransparent">
+	                   <img src="DRUGS.png">	
+	               <figcaption>
+		              <h3>Drugs</h3>
+		              <p>Drugs. Inhaled, swallowed, injected; originally concocted to serve medicinal purposes towards those 
+					  afflicted with sickness, mankind's drive for discovery has led to the creation of substances that cure 
+					  both physical and mental diseases. 
+					  </p>
+					  <p>However, relief, as short-lasting as it is given, can drive one to addiction. Surely, one would
+					  always want comfort in their lowest of lows. The overuse and abuse of drugs can lead to an addiction:
+					  an addiction that not only disillusions one's sense of reality but can also cause the devastation of
+					  one's very life. A double edged blade that can both heal and damage wounds.
+					  </p>
+					  <p>Lives have been destroyed by the abuse of drugs. </p>
+	               </figcaption>
+                </figure>
+            </div>
+        </div>
+
+
+		<div class="parallax three">
+			<div class="sub-caption left">
+				<figure class="blurfilter semitransparent">
+	                   <img src="alcohol.png">	
+	               <figcaption>
+		              <h3>Alcohol</h3>
+		              <p>An alcoholic drink, or alcoholic beverage, is a drink that contains a substantial amount of ethanol (informally called alcohol), a depressant which in low doses causes euphoria, reduced anxiety, and sociability and in higher doses causes intoxication (drunkenness), stupor and unconsciousness. Long-term use can lead to alcohol abuse, physical dependence, and alcoholism.</p>
+	               </figcaption>
+                </figure>
+			</div>
+		</div>
+
+		
+		<div class="parallax four">
+			<div class="sub-caption">
+				<figure class="blurfilter semitransparent">
+	                   <img src="TOBACCO.png">	
+	               <figcaption>
+		              <h3>Tobacco</h3>
+		              <p>The primary addicting substance in cigarettes is nicotine. But cigarette smoke contains thousands of other chemicals that also damage health. Hazards include heart disease, lung cancer and emphysema, peptic ulcer disease, and stroke. Withdrawal symptoms of smoking include anxiety, hunger, sleep disturbances, and depression<br>
+                      <br>-http://www.webmd.com/mental-health/addiction/substance-abuse</p>
+	               </figcaption>
+                </figure>
+			</div>
+		</div>
+        
+		<div class="container">
+			<h1>If you find yourself slowly going down the road of drug addiction, consult a therapist. Talk to you friends.
+				And always remember, a few minutes of pleasure for one's is never an equivalent exchange for losing
+				years of your life.
+			</h1>
+		</div>
+		
+        <div class="container">
+                <h1>Ready to change?
+                <a href="5.jpg">Click Me</a></h1>
+		</div>
+	</body>
+</html>
