@@ -15,7 +15,7 @@ figure.blurfilter{
 }
 figure.blurfilter img{
         display: block;
-        width: 1000px;
+        width: 600px;
         height: auto;
         transition: all 0.3s 0.3s;
 }
@@ -23,26 +23,25 @@ figure.blurfilter figcaption{
         position: absolute;
         display: block;
         text-align: left;
-        -webkit-box-sizing: border-box;
         box-sizing: border-box;
         text-align: center;
         background: white;
-        padding: 10px;
+        padding: 3%;
         z-index: 100;
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
         overflow: hidden;
-        top: 5%;
-        left: 5%;
-        font-family: 'Roboto Condensed';
-        font-size: 16px;
+        top: 0%;
+        left: 0%;
+        font-family: 'Arvo';
+        font-size: 14px;
         opacity: 0;
         -webkit-transition: all 0.4s;
         transition: all .4s;
 }
 
 figure.blurfilter figcaption h3{
-        font-size: 500%;
+        font-size: 300%;
         text-align: left;
         width: 100%;
         margin: 0;
@@ -55,6 +54,13 @@ figure.blurfilter figcaption p{
         line-height: 1.5;
         color: white
         font-size: 160%;
+        font-weight: 300;
+}
+figure.blurfilter figcaption h1{
+        text-align: left;
+        margin-top: 10px;
+        line-height: 1.5;
+        font-size: 200%;
         font-weight: 300;
 }
 
@@ -80,7 +86,6 @@ figure.blurfilter:hover figcaption{
 figure.semitransparent figcaption{
         background: transparent;
 }
-
 figure.semitransparent figcaption:before{
         content: '';
         display: block;
@@ -93,15 +98,6 @@ figure.semitransparent figcaption:before{
         background: white;
         opacity: .7;
 }
-
-/* containers */
-.container{
-    width: 100%;
-    margin: 0px auto 0px auto;
-    margin-top: 2%;
-    display: flex;
-}
-
 .content{
     padding: 30px 0;
     margin:0px auto 0px auto;
@@ -116,67 +112,230 @@ figure.semitransparent figcaption:before{
         position: relative;
 }
 .first {
-        background-image: url(../images/1.jpg);
+        background-image: url(../images/moments.png);
 }
 .second {
-        background-image: url(../images/2.jpg);
-        height: 80%;
+        background-image: url(../images/drugsbackground.jpg);
+        height: 100%;
 }
 .three {
-        background-image: url(../images/3.jpg);
-        height: 80%;
+        background-image: url(../images/alcoholbackground.jpg);
+        height: 100%;
 }
 .four {
-        background-image: url(../images/4.jpg);
-        height: 80%;
+        background-image: url(../images/tobaccobg.jpg);
+        height: 100%;
+}
+.fifth {
+        background-image: url(../images/5.jpg);
+        height: 100%;
 }
 .right-heading {
         position: absolute;
-        top: 20%;
-        right: 5%;
+        top: 50%;
+        left: 25%;
         transform: translate(0%, -50%);
         color: white;
-        text-align: right;
+        text-align: center;
+        width: 100%
+        padding:10px;
 }
 .right-heading h1, .right-heading h2 {
-        font-weight: 500;
-        font-family: 'Roboto';
+        font-family: 'Cedarville Cursive';
+        line-height: 0;
 }
 .right-heading h3 {
         font-family: 'SFNS Text', italic;
 }
 .right-heading h1 {
-        font-family: 'Roboto Condensed';
-        font-size: 400%;
-        line-height: 30%;
+        font-size: 62px;
 }
-.container h1 {
-        font-family: 'Gotham Black', regular;
-        font-weight: 300;
-        text-align: left;
-        font-size: 275%;
-        padding-top: 10px;
-        padding-bottom: 20px;
-        padding-left: 200px;
-}
+
 .sub-caption {
         background: rgba(255, 255, 255, 0.0);
-        font-family: Helvetica;
-        width: 75%;
-        padding-top: 27px;
-        padding-bottom: 27px;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 160%;
-        font-weight: 300;
+        width: 40%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
         position: absolute;
-        top: 50%;
-        right: 5%;
-        transform: translate(0%, -50%);
-}
-.left {
-        position: absolute;
-        top: 50%;
+        top: 40%;
         left: 5%;
         transform: translate(0%, -50%);
+}
+.sub-caption img{
+    display: block;
+    width: 600px;
+    height: auto;
+}
+.sub-caption2 {
+        background: rgba(253, 113, 113, 0.9);
+        font-family: 'Arvo';
+        color: white;
+        width: 35%;
+        height: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+        top: 40%;
+        right: 0%;
+        transform: translate(0%, -50%);
+}
+.sub-caption3 {
+        background: rgba(253, 113, 113, 0.0);
+
+        width: 100%;
+        height: 40%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+        top: 100%;
+        left: 1%;
+        transform: translate(0%, -50%);
+}
+
+.sub-captionb {
+        background: rgba(255, 255, 255, 0.0);
+        width: 40%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+        top: 30%;
+        right: 20%;
+        transform: translate(0%, -50%);
+}
+.sub-captionb img{
+    display: block;
+    width: 600px;
+    height: auto;
+}
+.sub-caption2b {
+        background: rgba(194, 142, 70, 0.67);
+        font-family: 'Arvo';
+        color: white;
+        width: 35%;
+        height: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+        top: 35%;
+        left: 0%;
+        transform: translate(0%, -50%);
+}
+.sub-caption3b {
+        background: rgba(253, 113, 113, 0.0);
+        width: 30%;
+        height: 40%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute;
+        top: 76%;
+        left: 40%;
+        transform: translate(0%, -50%);
+}
+.sub-captionc {
+        background: rgba(255, 255, 255, 0.0);
+        width: 30%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+        top: 40%;
+        left: 5%;
+        transform: translate(0%, -50%);
+}
+.sub-captionc img{
+    display: block;
+    width: 600px;
+    height: auto;
+}
+.sub-caption2c {
+        background: rgba(0, 236, 106, 0.81);
+        font-family: 'Arvo';
+        color: white;
+        width: 35%;
+        height: 50%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 0px;
+        position: absolute;
+        top: 40%;
+        right: 0%;
+        transform: translate(0%, -50%);
+}
+.sub-caption3c {
+        background: rgba(253, 113, 113, 0.0);
+
+        width: 100%;
+        height: 40%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+        top: 110%;
+        left: %;
+        transform: translate(0%, -50%);
+}
+.sub-caption2d {
+        background: rgba(255, 255, 255, 0.68);
+        font-family: 'Arvo';
+        color: black;
+        width: 40%;
+        height: 70%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+        top: 40%;
+        right: 0%;
+        transform: translate(0%, -50%);
+}
+.sub-caption2e {
+        background: rgba(0, 0, 0, 0.63);
+        font-family: 'Arvo';
+        color: white;
+        width: 40%;
+        height: 70%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        font-size: 13.5px;
+        transform: translate(0%, -50%);
+}
+.sub-captionbottom {
+        background: rgba(62, 155, 167, 0.65);
+        font-family: 'Cedarville cursive';
+        color: white;
+        width: 100%;
+        height: 10%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        position: absolute;
+        top: 95%;
+        left: 0%;
+        font-size: 13.5px;
+        transform: translate(0%, -50%);
+}
+.sub-captionbottom h1{
+        margin-left: 70%;
 }

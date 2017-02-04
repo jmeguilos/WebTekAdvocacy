@@ -21,3 +21,26 @@ It is estimated that in 2014 there were 207,400 (range: 113,700 – 250,100) drug-
 Drug-related deaths in Asia are tentative because of poor regional coverage and reporting of mortality data. However, it is estimated that there were between 13,600 and 100,700 deaths in 2013.
 
 http://www.overdoseday.com/resources/facts-stats/
+
+<p>Tobacco. Cigarettes, smoking, snuff; found and used in our daily lives, tobacco is perhaps
+ -				one of the most common forms of vice. Highly stimulating with every whiff and giving the user
+ -				a buzz of pleasure and energy, adrenaline to the senses. Tobacco has found itself as a common 
+ -				product, a commodity and smoking as a daily routine.
+ -				</p>
+ -				<p>The effect lingers for a short while and the user is left with wanting more. Chemicals from 
+ -				the nicotine can stay for as long as six weeks and overuse of the product can lead the brain to 
+ -				addiction, wanting more.
+ -				</p>
+ -				<p>You're a fool if you think smoking is cool. </p>
+
+		<div class="container">
+ -			<h1>If you find yourself slowly going down the road of drug addiction, consult a therapist. Talk to you friends. 
+ -			Talk to your family. And always remember, a few minutes of pleasure for one is never an equivalent exchange for losing
+ -			years of your life.
+ -			</h1>
+ -		</div>
+        
+        <div class="container">
+                <h1>Ready to change?
+                <a href="images/5.jpg" alt="d30">Click Me</a></h1>
+		</div>
