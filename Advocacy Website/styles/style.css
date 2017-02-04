@@ -36,7 +36,6 @@ figure.blurfilter figcaption{
         font-family: 'Arvo';
         font-size: 14px;
         opacity: 0;
-        -webkit-transition: all 0.4s;
         transition: all .4s;
 }
 
@@ -69,18 +68,14 @@ figure.blurfilter figcaption a{
 }
 
 figure.blurfilter:hover img{
-        -webkit-filter: blur(20px); 
         filter: blur(20px);
-        -webkit-transform: scale(1.0);
         transform: scale(1.0);
-        -webkit-transition: all 0.3s;
         transition: all 0.3s;
 }
 
 figure.blurfilter:hover figcaption{
         opacity: 1;
         box-shadow: 0 0 5px gray;
-        -webkit-transition: all .4s .4s;
         transition: all .4s .4s;
 }
 figure.semitransparent figcaption{
@@ -112,7 +107,7 @@ figure.semitransparent figcaption:before{
         position: relative;
 }
 .first {
-        background-image: url(../images/moments.png);
+        background-image: url(../images/moments.jpg);
 }
 .second {
         background-image: url(../images/drugsbackground.jpg);
