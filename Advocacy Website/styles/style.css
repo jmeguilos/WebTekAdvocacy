@@ -144,13 +144,12 @@ figure.semitransparent figcaption:before{
         font-family: 'Cedarville Cursive';
         line-height: 0;
 }
-.right-heading h3 {
-        font-family: 'SFNS Text', italic;
-}
 .right-heading h1 {
-        font-size: 62px;
+        font-size: 68px;
 }
-
+.right-heading h2 {
+        font-size: 30px;
+}
 .sub-caption {
         background: rgba(255, 255, 255, 0.0);
         width: 40%;
@@ -185,7 +184,6 @@ figure.semitransparent figcaption:before{
 }
 .sub-caption3 {
         background: rgba(253, 113, 113, 0.0);
-
         width: 100%;
         height: 40%;
         padding-top: 10px;
