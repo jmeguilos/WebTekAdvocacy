@@ -128,7 +128,7 @@ figure.semitransparent figcaption:before{
 .right-heading {
         position: absolute;
         top: 50%;
-        left: 25%;
+		right: 1%;
         transform: translate(0%, -50%);
         color: white;
         text-align: center;
@@ -239,7 +239,6 @@ figure.semitransparent figcaption:before{
 .sub-captionc {
         background: rgba(255, 255, 255, 0.0);
         width: 30%;
-        padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
