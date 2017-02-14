@@ -133,6 +133,7 @@ figure.semitransparent figcaption:before{
         text-align: center;
         width: 100%;
         padding:10px;
+        text-shadow: 0px 3px 5px #000000;
 }
 .right-heading h1, .right-heading h2 {
         font-family: 'Cedarville Cursive';
