@@ -105,6 +105,16 @@ figure.semitransparent figcaption:before{
         background-size: cover;
         position: relative;
 }
+.drugs1 {
+	padding: 0;
+	overflow: hidden;
+	background:url(../images/drugs-1928926_1920.jpg) no-repeat;
+	background-size: cover;
+	color: white;
+	box-shadow : inset 0 0 1.5em BLACK;
+	height: 80%;
+	margin: 0;
+}
 .first {
         background-image: url(../images/moments.jpg);
 }
@@ -113,7 +123,7 @@ figure.semitransparent figcaption:before{
         height: 100%;
 }
 .three {
-        background-image: url(../images/alcoholbackground.jpg);
+        background-image: url(../images/alcoholb.jpg);
         height: 100%;
 }
 .four {
@@ -148,12 +158,12 @@ figure.semitransparent figcaption:before{
 .sub-caption {
         background: rgba(255, 255, 255, 0.0);
         width: 40%;
-        padding-top: 10px;
+        padding-top: 10%;
         padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
         position: absolute;
-        top: 40%;
+        top: 20%;
         left: 5%;
         transform: translate(0%, -50%);
 }
@@ -163,32 +173,40 @@ figure.semitransparent figcaption:before{
     height: auto;
 }
 .sub-caption2 {
-        background: rgba(253, 113, 113, 0.9);
-        font-family: 'Arvo';
+        background: rgba(253, 113, 113, 0.8);
+        font-family: 'Open Sans Condensed';
         color: white;
-        width: 35%;
-        height: 50%;
+        width: 30%;
+        height: 100%;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
         position: absolute;
-        top: 40%;
+        top: 0%;
         right: 0%;
-        transform: translate(0%, -50%);
+}
+.sub-caption2 h1{
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Arvo'
+}
+.sub-caption2 h2{
+    font-size: 20px;
+    text-align:justify;
+    font-family: 'Open Sans Condensed';
 }
 .sub-caption3 {
         background: rgba(253, 113, 113, 0.0);
         width: 100%;
         height: 30%;
-        padding-top: 10px;
+        padding-top: 0px;
         padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
         position: absolute;
-        top: 100%;
+        top: 110%;
         left: 1%;
-        transform: translate(0%, -50%);
 }
 
 .sub-captionb {
@@ -210,18 +228,26 @@ figure.semitransparent figcaption:before{
 }
 .sub-caption2b {
         background: rgba(194, 142, 70, 0.67);
-        font-family: 'Arvo';
         color: white;
-        width: 35%;
-        height: 50%;
+        width: 30%;
+        height: 100%;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 10px;
         padding-right: 10px;
         position: absolute;
-        top: 35%;
+        top: 0%;
         left: 0%;
-        transform: translate(0%, -50%);
+}
+.sub-caption2b h1{
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Arvo';
+}
+.sub-caption2b h2{
+    font-size: 20px;
+    text-align:justify;
+    font-family: 'Open Sans Condensed';
 }
 .sub-caption3b {
         background: rgba(253, 113, 113, 0.0);
@@ -254,18 +280,27 @@ figure.semitransparent figcaption:before{
 }
 .sub-caption2c {
         background: rgba(0, 236, 106, 0.81);
-        font-family: 'Arvo';
         color: white;
-        width: 35%;
-        height: 50%;
+        width: 30%;
+        height: 100%;
         padding-top: 0px;
         padding-bottom: 0px;
         padding-left: 10px;
         padding-right: 0px;
         position: absolute;
-        top: 40%;
+        top: 0%;
         right: 0%;
-        transform: translate(0%, -50%);
+}
+.sub-caption2c h1{
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Arvo';
+}
+.sub-caption2c h2{
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Open Sans Condensed';
+    margin:5px;
 }
 .sub-caption3c {
         background: rgba(253, 113, 113, 0.0);
@@ -283,49 +318,67 @@ figure.semitransparent figcaption:before{
         background: rgba(255, 255, 255, 0.68);
         font-family: 'Arvo';
         color: black;
-        width: 40%;
-        height: 70%;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        width: 50%;
+        height: 80%;
         position: absolute;
-        top: 40%;
+        top: 0%;
         right: 0%;
-        transform: translate(0%, -50%);
+}
+.sub-caption2d h1{
+    margin: 10px;
+    font-size: 72px;
+}
+.sub-caption2d h2{
+    margin: 20px;
+    font-size: 24px;
+}
+.sub-caption2d p{
+    margin: 20px;
 }
 .sub-caption2e {
         background: rgba(0, 0, 0, 0.63);
         font-family: 'Arvo';
         color: white;
-        width: 40%;
-        height: 70%;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        width: 50%;
+        height: 80%;
         position: absolute;
-        top: 40%;
+        top: 0%;
         left: 0%;
         font-size: 14.5px;
-        transform: translate(0%, -50%);
+}
+.sub-caption2e h1{
+    margin: 10px;
+    font-size: 72px;
+}
+.sub-caption2e h2{
+    margin: 20px;
+    font-size: 24px;
+}
+.sub-caption2e p{
+    margin: 20px;
 }
 .sub-captionbottom {
         background: rgba(62, 155, 167, 0.65);
         font-family: 'Cedarville cursive';
         color: white;
         width: 100%;
-        height: 10%;
+        height: 20%;
         padding-top: 0px;
         padding-bottom: 0px;
         padding-left: 0px;
         padding-right: 0px;
         position: absolute;
-        top: 95%;
+        top: 80%;
         left: 0%;
         font-size: 13.5px;
-        transform: translate(0%, -50%);
 }
 .sub-captionbottom h1{
         margin-left: 70%;
+        
+}
+.sub-captionbottom h2{
+        font-family: 'Open Sans Condensed';
+        font-size: 20px;
+        text-align: right;
+        margin-right: 7%;
 }
