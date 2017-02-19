@@ -1,0 +1,13 @@
+Added doctype to line 1
+Added meta charset="utf-8" at line 3
+Replaced "Hello" to "Pj E. David" line 8
+Replaced div to nav line 9
+Removed all <br> tags in the menu
+Added unordered list in nav menu
+Replaced "Education" to "Travel"
+Removed all <br> tags at line 21
+Removed iframes then replaced content of aboutMePortion div line 23
+Removed iframes then replaced content, and name of educationPortion div line 28
+Removed iframes then replaced content of skillsPortion div line 32
+Removed iframes then replaced content of hobbiesPortion div line 36
+Removed iframes then replaced content of contactPortion div line 40
